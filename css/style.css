@@ -6,28 +6,37 @@
   box-sizing: inherit;
 }
 
-.logo {
-  text-align: right;
+body {
+  margin: 0;
+}
+
+.top-nav {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: orange;
+  border: 1px black solid;
+  overflow: auto;
+}
+
+.grey-background {
+  background: grey;
+}
+
+.top-nav__logo {
+  text-align: left;
+  display: block; /* Already display block */
+  float: left;
 
   width: 160px;
 
   background: green;
   color: yellow;
-  margin: 2rem;
   padding: 1rem;
   border: 0.5rem solid red;
 }
 
-.sub-heading {
-  width: 160px;
-
-  margin: 2rem;
-
-  background: black;
-  color: white;
+.top-nav__buttons {
+  float: right;
 }
-
-/*
-  margin
-  padding
- */
