@@ -40,3 +40,34 @@ body {
 .top-nav__buttons {
   float: right;
 }
+
+.container {
+  max-width: 40rem;
+  margin: auto;
+}
+
+main {
+  background-image: url('http://fillmurray.com/1000/1000');
+}
+
+.row {
+  margin: 0 -1rem;
+  overflow: auto;
+}
+
+h2, h3 {
+  margin: 0;
+}
+
+.left-column, .right-column {
+  float: left;
+  margin: 0 1rem;
+}
+
+.left-column {
+  width: calc(70% - 2rem);
+}
+
+.right-column {
+  width: calc(30% - 2rem);
+}
