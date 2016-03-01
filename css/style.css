@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+*::before, *::after {
+  box-sizing: inherit;
+}
+
+.logo {
+  text-align: right;
+
+  width: 160px;
+
+  background: green;
+  color: yellow;
+  margin: 2rem;
+  padding: 1rem;
+  border: 0.5rem solid red;
+}
+
+.sub-heading {
+  width: 160px;
+
+  margin: 2rem;
+
+  background: black;
+  color: white;
+}
+
+/*
+  margin
+  padding
+ */
